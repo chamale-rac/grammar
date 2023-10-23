@@ -25,10 +25,10 @@ export function Results() {
 						<span className='text-muted-foreground text-base'>
 							{WorkFormProxySnap.isIn !== undefined &&
 								(WorkFormProxySnap.isIn ? (
-									<Badge>Accepted ({WorkFormProxySnap.took} s)</Badge>
+									<Badge>Accepted ({WorkFormProxySnap.took} seconds)</Badge>
 								) : (
 									<Badge variant='destructive'>
-										Rejected ({WorkFormProxySnap.took} s)
+										Rejected ({WorkFormProxySnap.took} seconds)
 									</Badge>
 								))}
 						</span>
