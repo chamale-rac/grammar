@@ -1,8 +1,8 @@
-# 🚀 automaton AKA Proyecto 1
+# 🚀 grammar-server AKA Proyecto 2
 
-You can effortlessly generate graphs from regular expressions, including Abstract Syntax Tree, Non-deterministic Finite Automaton, Deterministic Finite Automaton, and Minimized Finite Automaton. Additionally, iAutomaton enables you to simulate these automata with various input strings.
+Implementation of grammar simplification (to CNF) and CYK algorithm.
 
-This interface works directly with [automaton-server (repository)](https://github.com/chamale-rac/automaton-server).
+This interface works directly with [grammar-server (repository)](https://github.com/chamale-rac/grammar-server).
 
 ## 📑 Index
 
@@ -26,7 +26,7 @@ npm run dev
 
 ## Why I code this?
 
-Es un agregado al **Proyecto No. 1** de **Teoría de la Computación** **Sección 20** del **Segundo ciclo 2023**. Valía puntos, fuí coaccionado 😭.
+Es un agregado al **Proyecto No. 2** de **Teoría de la Computación** **Sección 20** del **Segundo ciclo 2023**. Valía puntos, fuí coaccionado 😭.
 
 ## Who I am?
 
