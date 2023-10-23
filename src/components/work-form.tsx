@@ -85,6 +85,7 @@ interface responseData {
 	sentence: string
 	images: Image[]
 	isIn: boolean
+	took: number
 }
 
 interface postData {
@@ -131,6 +132,7 @@ export function WorkForm() {
 			WorkFormProxy.sentence = responseData.sentence
 			WorkFormProxy.images = responseData.images
 			WorkFormProxy.isIn = responseData.isIn
+			WorkFormProxy.took = responseData.took
 
 			console.log(responseData)
 			toast({

@@ -23,11 +23,13 @@ export function Results() {
 							<div></div>
 						</div>
 						<span className='text-muted-foreground text-base'>
-							{WorkFormProxySnap.isIn !== null &&
+							{WorkFormProxySnap.isIn !== undefined &&
 								(WorkFormProxySnap.isIn ? (
-									<Badge>Accepted</Badge>
+									<Badge>Accepted ({WorkFormProxySnap.took} s)</Badge>
 								) : (
-									<Badge variant='destructive'>Rejected</Badge>
+									<Badge variant='destructive'>
+										Rejected ({WorkFormProxySnap.took} s)
+									</Badge>
 								))}
 						</span>
 					</CardTitle>

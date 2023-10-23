@@ -71,7 +71,8 @@ interface responseData {
 	initialGrammar: string
 	sentence: string
 	images: Image[]
-	isIn: boolean
+	isIn: boolean | undefined
+	took: number
 }
 
 export const WorkFormProxy = proxy<responseData>({
@@ -81,5 +82,6 @@ export const WorkFormProxy = proxy<responseData>({
 	initialGrammar: '',
 	sentence: '',
 	images: [],
-	isIn: false,
+	isIn: undefined,
+	took: 0,
 })
