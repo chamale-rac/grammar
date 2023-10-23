@@ -307,7 +307,8 @@ export function WorkForm() {
 									/>
 								</FormControl>
 								<FormDescription>
-									The initial symbol of the grammar.
+									The initial symbol of the grammar. First line non-terminal if
+									not specified.
 								</FormDescription>
 								<FormMessage />
 							</FormItem>
@@ -325,7 +326,10 @@ export function WorkForm() {
 										{...field}
 									/>
 								</FormControl>
-								<FormDescription>Prefix for new non-terminals.</FormDescription>
+								<FormDescription>
+									Prefix for new non-terminals. Automatically generated if not
+									specified.
+								</FormDescription>
 								<FormMessage />
 							</FormItem>
 						)}
